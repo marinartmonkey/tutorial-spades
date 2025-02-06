@@ -17,9 +17,9 @@ Está diseñado para personas sin experiencia en programación.
     # Ejecuta este comando en tu terminal si no tienes WSL instalado:
     wsl --install
 
-1.  Reinicia tu PC cuando se te solicite.
+3.  Reinicia tu PC cuando se te solicite.
 
-2.  Abre de nuevo WSL.
+4.  Abre de nuevo WSL.
 
 ## **3. Instalación de dependencias en Ubuntu**
 
@@ -32,13 +32,13 @@ compilar y usar SPAdes:
 
     sudo apt update
 
-1.  Instala las herramientas necesarias:
+2.  Instala las herramientas necesarias:
 
 <!-- -->
 
     sudo apt install -y git cmake make g++ python3
 
-1.  Verifica que las herramientas estén instaladas:
+3.  Verifica que las herramientas estén instaladas:
 
 <!-- -->
 
@@ -64,13 +64,13 @@ Clona el repositorio oficial de SPAdes desde GitHub:
     mkdir build
     cd build
 
-1.  Configura el proyecto con CMake:
+2.  Configura el proyecto con CMake:
 
 <!-- -->
 
     cmake ..
 
-1.  Compila el código:
+3.  Compila el código:
 
 <!-- -->
 
@@ -87,7 +87,7 @@ compilación.
     echo -e "@read1\nACGTACGTACGT\n+\nFFFFFFFFFFFF" > reads_1.fastq
     echo -e "@read2\nTGCATGCATGCA\n+\nFFFFFFFFFFFF" > reads_2.fastq
 
-1.  Ejecuta SPAdes:
+2.  Ejecuta SPAdes:
 
 <!-- -->
 
@@ -98,7 +98,7 @@ compilación.
 
     ./bin/spades.py --pe1-1 your_reads_1.fastq --pe1-2 your_reads_2.fastq -o real_output
 
-1.  Cambia your\_reads\_1.fastq y your\_reads\_2.fastq por los nombres
+2.  Cambia your\_reads\_1.fastq y your\_reads\_2.fastq por los nombres
     de tus archivos.
 
 ## **7. Verificar los resultados**
