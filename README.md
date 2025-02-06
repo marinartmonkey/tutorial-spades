@@ -84,6 +84,8 @@ compilación.
 **Con datos de prueba**  
 1. Crea archivos de prueba:
 
+<!-- -->
+
     echo -e "@read1\nACGTACGTACGT\n+\nFFFFFFFFFFFF" > reads_1.fastq
     echo -e "@read2\nTGCATGCATGCA\n+\nFFFFFFFFFFFF" > reads_2.fastq
 
@@ -100,18 +102,21 @@ compilación.
 
     ./bin/spades.py --pe1-1 your_reads_1.fastq --pe1-2 your_reads_2.fastq -o real_output
 
-2.  Cambia 'your\_reads\_1.fastq' y 'your\_reads\_2.fastq' por los nombres
+2.  Cambia `your\_reads\_1.fastq` y `your\_reads\_2.fastq` por los nombres
     de tus archivos.
 
 ## **7. Verificar los resultados**
 
-Los ensamblajes se guardan en el directorio de salida ('test\_output' o
-'real\_output'). El archivo principal es contigs.fasta. 1. Lista los
-archivos generados:
+Los ensamblajes se guardan en el directorio de salida (`test\_output` o
+`real\_output`). El archivo principal es `contigs.fasta`. 
+
+1. Lista los archivos generados:
+
+<!-- -->
 
     ls test_output
 
-1.  Revisa el archivo de ensamblaje:
+2.  Revisa el archivo de ensamblaje:
 
 <!-- -->
 
