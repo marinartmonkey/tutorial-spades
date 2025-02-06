@@ -96,15 +96,17 @@ compilación.
 **Con tus propios datos**  
 1. Si tienes archivos FASTQ reales, reemplaza los nombres en el comando:
 
+<!-- -->
+
     ./bin/spades.py --pe1-1 your_reads_1.fastq --pe1-2 your_reads_2.fastq -o real_output
 
-2.  Cambia your\_reads\_1.fastq y your\_reads\_2.fastq por los nombres
+2.  Cambia 'your\_reads\_1.fastq' y 'your\_reads\_2.fastq' por los nombres
     de tus archivos.
 
 ## **7. Verificar los resultados**
 
-Los ensamblajes se guardan en el directorio de salida (test\_output o
-real\_output). El archivo principal es contigs.fasta. 1. Lista los
+Los ensamblajes se guardan en el directorio de salida ('test\_output' o
+'real\_output'). El archivo principal es contigs.fasta. 1. Lista los
 archivos generados:
 
     ls test_output
